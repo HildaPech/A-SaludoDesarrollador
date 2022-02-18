@@ -8,35 +8,59 @@
 
     <TextView
         android:id="@+id/tvEtiqueta"
-        android:layout_width="wrap_content"
+        android:layout_width="75dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="34dp"
-        android:text="Hola Hilda" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="49dp"
+        android:text="Hola Hilda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:layout_below="@id/tvEtiqueta"
         android:layout_alignStart="@id/tvEtiqueta"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="49dp"
+        android:background="#FBD3F0"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
 
     <Button
         android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="575dp"
+        android:layout_toEndOf="@+id/editTextTextPersonName5"
+        android:backgroundTint="#D662CB"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="254dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@id/editTextTextPersonName5"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="289dp"
-        android:layout_marginBottom="584dp"
-        android:text="Button" />
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="189dp"
+        android:text="H.P." />
 </RelativeLayout>
