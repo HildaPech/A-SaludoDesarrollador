@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">SaludoDesarrollador</string>
+    <string name="app_name">App Saludo Desarrollador</string>
+    <string name="introduccion">"         Bienvenido a esta aplicacion, elaborado por Hilda Yaroslavi Pech Lopez,         Programacion 6to semestre     "</string>
 </resources>
